@@ -1,4 +1,4 @@
-# Title: Loopstudios landing page
+# Title: Web developer portfolio landing page
 * Click <a href="https://mercado-joshua.github.io/webdev-portfolio-1/dist/index.html" target="_blank">here</a> to view the project.
 * Checkout src folder for source code.
 <br>
