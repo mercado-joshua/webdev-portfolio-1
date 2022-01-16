@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Prata&display=swap");
+body {
+  line-height: 1.6;
+  background-color: #000;
+  color: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+
+.image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.max-container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.portfolio-section {
+  padding: 2em 0 3em 0;
+}
+
+.header-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .header-section > .open-btn {
+    display: none;
+  }
+  .header-section > .nav-section {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header-section > .nav-section > .primary-menu {
+    margin: 0 auto;
+  }
+}
+
+.banner-section {
+  margin: 4em 0;
+}
+.banner-section > .contentbox > .title {
+  margin-bottom: 0.5em;
+  font-size: 1.7rem;
+  font-family: "Prata", serif;
+}
+.banner-section > .contentbox > .description {
+  opacity: 0.7;
+  margin: 0;
+}
+@media only screen and (min-width: 768px) {
+  .banner-section > .contentbox {
+    width: 70%;
+  }
+}
+
+.nav-section {
+  display: none;
+}
+
+.companies-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+  gap: 1em;
+  justify-items: center;
+  margin-bottom: 4em;
+}
+
+.project-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3em;
+}
+.project-section .project-card > .contentbox > .title {
+  margin: 0.8em 0;
+}
+.project-section .project-card > .contentbox > .description {
+  margin: 0;
+}
+@media only screen and (min-width: 600px) {
+  .project-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.intro-section {
+  padding: 3em 0;
+  background-color: #2e3038;
+}
+
+.brag-section > .contentbox > .title {
+  margin-bottom: 0.5em;
+  font-size: 1.7rem;
+  font-family: "Prata", serif;
+}
+.brag-section > .contentbox > .description {
+  opacity: 0.7;
+  margin: 0;
+}
+@media only screen and (min-width: 768px) {
+  .brag-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3em;
+  }
+}
+
+.interested-section {
+  padding: 4em 0;
+}
+
+.contact-section > .contentbox > .title {
+  margin-bottom: 0.5em;
+  font-size: 1.7rem;
+  font-family: "Prata", serif;
+}
+.contact-section > .contentbox > .description {
+  opacity: 0.7;
+}
+@media only screen and (min-width: 600px) {
+  .contact-section > .contentbox {
+    width: 60%;
+  }
+}
+
+.footer-section {
+  background-color: #2e3038;
+}
+
+.info-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5em 1em;
+}
+@media only screen and (min-width: 768px) {
+  .info-section {
+    padding: 1.5em 0;
+  }
+}
+
+.open-btn,
+.cta-btn {
+  all: unset;
+  cursor: pointer;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-family: "Prata", serif;
+  text-decoration: none;
+  background-color: #fbe850;
+  color: #000;
+}
+.cta-btn:focus, .cta-btn:hover {
+  opacity: 0.7;
+}
+
+.project-card > .contentbox > .title {
+  font-size: 1.7rem;
+  font-family: "Prata", serif;
+}
+.project-card > .contentbox > .title > .link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.project-card > .contentbox > .description {
+  opacity: 0.7;
+}
+
+.social-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+}
+
+.primary-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5em;
+}
+.primary-menu > .item > .link {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+}
+.primary-menu > .item > .link:focus, .primary-menu > .item > .link:hover {
+  opacity: 1;
+}

@@ -1,0 +1,19 @@
+.open-btn,
+.cta-btn {
+    all: unset;
+    cursor: pointer;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: .5em 1em;
+    font-family: 'Prata', serif;
+    text-decoration: none;
+    background-color: #fbe850;
+    color: #000;
+
+    &:focus,
+    &:hover {
+        opacity: .7;
+    }
+}

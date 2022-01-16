@@ -1,0 +1,52 @@
+.portfolio-section {
+    padding: 2em 0 3em 0;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /// Medium devices (landscape tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+        > .open-btn {
+            display: none;
+        }
+
+        > .nav-section {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            > .primary-menu {
+                margin: 0 auto;
+            }
+
+        }
+    }
+}
+
+.banner-section {
+    margin: 4em 0;
+
+    > .contentbox {
+        > .title {
+            margin-bottom: .5em;
+            font-size: 1.7rem;
+            font-family: 'Prata', serif;
+        }
+
+        > .description {
+            opacity: .7;
+            margin: 0;
+        }
+    }
+
+    /// Medium devices (landscape tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+        > .contentbox {
+            width: 70%;
+        }
+    }
+}

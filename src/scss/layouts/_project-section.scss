@@ -1,0 +1,23 @@
+.project-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+
+    .project-card {
+        > .contentbox {
+            > .title {
+                margin: .8em 0;
+            }
+    
+            > .description {
+                margin: 0;
+            }
+        }
+    }
+
+    /// Small devices (portrait tablets and large phones, 600px and up)
+    @media only screen and (min-width: 600px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

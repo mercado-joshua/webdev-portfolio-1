@@ -1,0 +1,15 @@
+.footer-section {
+    background-color: #2e3038;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 1em;
+
+    /// Medium devices (landscape tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+        padding: 1.5em 0;
+    }
+}

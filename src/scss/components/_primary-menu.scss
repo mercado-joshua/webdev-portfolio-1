@@ -1,0 +1,15 @@
+.primary-menu {
+    display: flex;
+    gap: 1.5em;
+
+    > .item > .link {
+        text-decoration: none;
+        color: #fff;
+        opacity: .7;
+
+        &:focus,
+        &:hover {
+            opacity: 1;
+        } 
+    }
+}

@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/// @name main.scss
+/// @author Joshua Mercado
+///
+///  table of contents:
+///   1. vendor
+///   2. base
+///   3. layout
+///   4. components
+
+/// 1. vendor - third-party css imports.
+@forward "vendor/google-fonts";
+
+/// 2. base - contains global styles.
+@forward "base/global";
+
+/// 3. layout - contains styles for different aspects of the
+///             site's structural layout.
+@forward "layouts/portfolio-section";
+@forward "layouts/nav-section";
+@forward "layouts/companies-section";
+@forward "layouts/project-section";
+@forward "layouts/intro-section";
+@forward "layouts/interested-section";
+@forward "layouts/footer-section";
+
+/// 4. components - "mini" layouts. Styles for small,
+///                  reusable pieces of the site.
+
+@forward "components/buttons";
+@forward "components/project-card";
+@forward "components/social-menu";
+@forward "components/primary-menu";
+
+
+

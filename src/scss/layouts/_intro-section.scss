@@ -1,0 +1,26 @@
+.intro-section {
+    padding: 3em 0;
+    background-color: #2e3038;
+}
+
+.brag-section {
+    > .contentbox {
+        > .title {
+            margin-bottom: .5em;
+            font-size: 1.7rem;
+            font-family: 'Prata', serif;
+        }
+
+        > .description {
+            opacity: .7;
+            margin: 0;
+        }
+    }
+
+    /// Medium devices (landscape tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3em;
+    }
+}

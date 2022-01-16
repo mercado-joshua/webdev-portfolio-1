@@ -1,0 +1,7 @@
+.companies-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+    gap: 1em;
+    justify-items: center;
+    margin-bottom: 4em;
+}
