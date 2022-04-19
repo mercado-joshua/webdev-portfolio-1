@@ -6,21 +6,14 @@
 * Checkout screenshots folder for website screen images.
 
 ## Type
----
 Converted website from design mockup.
 
 ## Goal
----
 1. To practice implementing mobile-first approach and css layout development like grid, flex-box and media queries.
 
 2. Convert website based on given web design specifications.
 
-## When the project finished
----
-Took 1 day to finish.
-
 ## Description
----
 ### Purpose:
 A finished coding challenge from [frontendmentor.io](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw).
 I took the challenge to test and practice my responsive layout skill.
